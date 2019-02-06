@@ -13,7 +13,11 @@ interface Report {
 // в классе
 class DailyReport implements Report {
 	name: string = 'Daily Report'
-	log = (): string => 'Some text'
+	log = (): string => 'Daily Report'
+}
+class WeeklyReport implements Report {
+	name: string = 'Weekly Report'
+	log = (): string => 'Weekly Report'
 }
 
 // в ф-ии

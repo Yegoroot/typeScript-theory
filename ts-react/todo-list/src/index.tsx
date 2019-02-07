@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import App from './components/App'
 
-const ROOT = document.querySelector('.container')
+const ROOT = document.querySelector('.root')
 
-ReactDOM.render(<h1>test test </h1>, ROOT)
+ReactDOM.render(<App />, ROOT)

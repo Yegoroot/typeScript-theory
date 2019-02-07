@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.21",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

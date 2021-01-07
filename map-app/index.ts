@@ -1,1 +1,5 @@
-console.log('ts is running in browser')
+import {User} from './User'
+
+const user = new User()
+
+console.log(user)

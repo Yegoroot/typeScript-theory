@@ -1,12 +1,9 @@
-import {User} from './User'
-import {Company} from './Company'
-
 /**
  * Instructions to every other class
  * on how they can be an argument to 'addMarker'
  */
 
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number
     lng: number
@@ -25,10 +22,6 @@ export class CustomMap {
        lng: 0
      },
     })
-
-
-  
-  
   }
 
   addMarker(mappable: Mappable): void {
